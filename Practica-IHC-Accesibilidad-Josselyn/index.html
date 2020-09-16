@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Mi Portafolio</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap" rel="stylesheet"/>
+  </head>
+
+  <body>
+    <header>
+      <img src="images/JosselynMacias.jpeg" class="header-img" alt="Fotografía personal">
+      <h1 class="header">Josselyn Stefany Macias Pico </h1>
+      <h2 class="subtitle">Cuarto "B"</h2>
+      <nav>
+        <ul class="navigation">
+          <li class="nav-item" >
+            <a href="#">Acerca de</a> 
+          </li>
+          <li class="nav-item">
+            <a href="#">Mis Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#"> Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+    <section>
+      <h2 class="header" id="1"> Acerca de</h2>
+      <div>
+        <p class="intro">
+        Hola! soy Josselyn 🥺de nacionalidad Ecuatoriana, estudiante de 20 años🥰, 
+        me gustan las musicas romanticas, tambien me encanta pasear😍, conocer nuevos lugares🛩️🏜️. 
+        Soy estudiante de Ingenieria de la Tecnologia de la informacion. Ademas tengo interes 
+        en la programacion🙊, en lo que es sistemas digitales. Me gusta mas el clima frio que el caliente 💦
+        En este apartado podras observar algunos de mis proyectos 🥺tambien contraras como contactarme
+        si deseas charlar sobre intereses en común 😍.
+        </p>
+        <ul class="social-media">
+            <li>
+              <a href="https://twitter.com" rel="noopener" target="_blank">
+              <img src="images/twitter.png" alt="Twitter"/>
+              <p class="social-link-text">Twitter</p>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/" rel="noopener" target="_blank">
+              <img src="images/github-logo.png" alt="Github"/>
+              <p class="social-link-text">Github</p>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com" rel="noopener" target="_blank">
+              <img src="images/linkedin.png" alt="Linkedin"/>
+              <p class="social-link-text">Linkedin</p>
+              </a>
+            </li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="header" id="2"> Mis Proyectos</h2>
+      <div class="carousel">
+        <button class="arrow arrow-left" aria-label="backward button"></button>
+          <div class="window">
+            <ul class="project-container">
+
+              <li class="project1-container"><button class="project1
+              project"><img src="images/project1.jpeg" class="project-img"
+              alt="Primer proyecto"></button></li>
+
+              <li class="project2-container"><button class="project2
+              project"><img src="images/project2.jpeg" class="project-img"
+              alt="Segundo proyecto"></button></li>
+
+              <li class="project3-container"><button class="project3
+              project"><img src="images/project3.jpeg" class="project-img"
+              alt="Tercer proyecto"></button></li>
+
+              <li class="project4-container" aria-hidden="true"><button class="project4
+              project"tabindex="-1"><img src="images/project4.jpeg" class="project-img"
+              alt="Cuarto proyecto"></button></li>
+
+              <li class="project5-container" aria-hidden="true"><button class="project5
+              project" tabindex="-1"><img src="images/project5.jpeg" class="project-img"
+              alt="Quinto proyecto"></button></li>
+
+
+              </ul>
+           </div>
+           <button class="arrow arrow-right" aria-label="Boton para ir hacia adelante"></button>
+          </div>
+    </section>
+</main>
+
+<footer class="contact-section">
+  <h2 class="header" id="3">Contacto</h2>
+  <p class="intro">Para manderme un mensaje puedes usar el formulario que
+ sigue</p>
+  <form class="form-container">
+  <label class="form-label">Nombre</label><input type="text" aria-label="nombre" id="name" />
+  <span id="name-error" aria-live="assertive"></span>
+  <br />
+  <label class="form-label">Correo</label><input type="text" aria-label="correo" /> <br />
+  <label class="message-input">Mensaje<input type="text"  arialabel="mensaje" /> <br
+ /></label>
+  <button class="send-button">Enviar</button>
+  </form>
+  </footer>
+ 
+
+    <div class="notification" aria-live="assertive"></div>
+    <div class="modal-container">
+      <div class="modal">
+        <h2 class="header" id="modal-header" tabindex="0">Ejemplo de mi proyecto</h2>
+        <img src="images/project1.jpeg" class="modal-project-image"
+        alt="pantallazo del proyecto"/>
+        <button class="modal-button">Cerrar</button>
+      </div>
+    </div>
+
+    <script src="index.js" type="text/javascript"></script>
+  </body>
+</html>
