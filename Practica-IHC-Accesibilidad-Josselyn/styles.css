@@ -73,7 +73,7 @@ body, header, section   {
 }
 
 .header-img {
-  background: center / contain no-repeat url(./images/maria.jpg);
+  background: center / contain no-repeat url(./images/JosselynMacias.jpeg);
   border-radius: 50%;
   border: 1px solid var(--gris-oscuro);
   box-shadow: 8px 16px 32px 0px var(--shadow);
@@ -200,23 +200,23 @@ nav {
 }
 
 .project1 {
-  background: center / cover no-repeat url(./images/project1.png);
+  background: center / cover no-repeat url(./images/project1.jpeg);
 }
 
 .project2 {
-  background: center / cover no-repeat url(./images/project2.png);
+  background: center / cover no-repeat url(./images/project2.jpeg);
 }
 
 .project3 {
-  background: center / cover no-repeat url(./images/project3.png);
+  background: center / cover no-repeat url(./images/project3.jpeg);
 }
 
 .project4 {
-  background: center / cover no-repeat url(./images/project4.png);
+  background: center / cover no-repeat url(./images/project4.jpeg);
 }
 
 .project5 {
-  background: center / cover no-repeat url(./images/project5.png);
+  background: center / cover no-repeat url(./images/project5.jpeg);
 }
 
 .arrow {
@@ -354,7 +354,7 @@ input:focus{
 }
 
 .modal-project-image {
-  background: center / cover no-repeat url(./images/project1.png);
+  background: center / cover no-repeat url(./images/project1.jpeg);
   border-radius: 5px;
   border: 2px solid #000;
   height: 400px;
